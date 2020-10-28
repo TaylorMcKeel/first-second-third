@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main > div {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  border: 1px orange solid;
+  padding: 50px;
+  align-items: center;
+  align-content: space-between;
+}
+
+button {
+  background-color: salmon;
+  width: 8rem;
+  height: 3rem;
+  margin: 5px;
+}
+
+.first > h1 {
+  margin-top: 5rem;
+}
+
+.third > h1 {
+  margin-top: 5rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.nameBox {
+  padding: 5px;
+}
+
+.selected {
+  background-color: salmon;
+}
